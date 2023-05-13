@@ -19,28 +19,35 @@
         android:textStyle="bold"
         android:paddingBottom="20dp"
         />
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/input_emailu"
-        android:hint="Email Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:editable="false"
-        />
+        android:hint="Email Update"
+        android:minHeight="48dp" />
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/input_passwordu"
-        android:hint="Password Update"/>
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Password Update"
+        android:minHeight="48dp" />
+
+    <EditText
         android:id="@+id/input_usernameu"
-        android:hint="Username Update(NIM)"/>
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Username Update(NIM)"
+        android:minHeight="48dp" />
+
+    <EditText
         android:id="@+id/input_namau"
-        android:hint="Nama Update"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Update"
+        android:minHeight="48dp" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
